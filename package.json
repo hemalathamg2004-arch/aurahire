@@ -1,0 +1,26 @@
+{
+  "name": "aurahire",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.80.0",
+    "@supabase/supabase-js": "^2.101.1",
+    "ai": "^6.0.141",
+    "face-api.js": "^0.22.2",
+    "next": "14.2.35",
+    "openai": "^6.33.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-webcam": "^7.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.35"
+  }
+}
